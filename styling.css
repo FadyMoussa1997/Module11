@@ -1,0 +1,200 @@
+#root2{
+    -fx-background-color: #4995d5;
+    -fx-pref-width: 350;
+
+}
+
+
+#intro_label {
+    -fx-font-size: 35px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+
+}
+
+#select_label {
+    -fx-font-size: 18px;
+    -fx-padding: 10 20;
+    -fx-text-fill: black;
+}
+
+#option1, #option2, #option3, #option4, #option5 {
+    -fx-font-size: 18px;
+    -fx-text-fill: #444444;
+    -fx-padding: 10 20;
+    -fx-font-weight: bold;
+}
+
+#next, #backButton {
+    -fx-background-color: #009688;
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+
+
+}
+
+#backButton:hover, #next:hover {
+    -fx-background-color: #007666;
+}
+
+#result_scene2, #result_scene, #result_delete {
+    -fx-font-size: 20px;
+
+    -fx-font-weight: bold;
+}
+
+#result_label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 20;
+
+}
+
+/* _____________________________________________________________________________________________________*/
+
+/*_____________________________________________ADD SCENE____________________________________*/
+
+#rootADD {
+    -fx-background-color: #3498db;
+}
+
+#intro_add {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#bookID_add, #bookTitle_add, #bookAuthor_add, #bookGenre_add {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#bookID, #bookTitle, #bookAuthor, #bookGenre {
+    -fx-pref-width: 250px;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+#saveADD {
+    -fx-background-color: #008000;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+
+/*_____________________________________________Delete SCENE____________________________________*/
+
+#rootDelete {
+    -fx-background-color: #3498db;
+}
+
+#intro_delete {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#booktoDelete {
+    -fx-pref-width: 250px;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#saveDelete {
+    -fx-background-color: #ff0000;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+
+/*_____________________________________________Check-Out SCENE____________________________________*/
+
+#rootCheckout{
+    -fx-background-color: #3498db;
+}
+
+#intro_Checkout{
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#booktoCheckout {
+    -fx-pref-width: 250px;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+#checkout {
+    -fx-background-color: #008000;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#result_Checkout, #result2_Checkout {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+
+/*_____________________________________________Check-IN SCENE____________________________________*/
+
+#rootCheckin {
+    -fx-background-color: #3498db;
+}
+
+#intro_Checkin{
+    -fx-font-size: 20px;
+
+    -fx-font-weight: bold;
+}
+
+#booktoCheckin {
+    -fx-pref-width: 250px;
+    -fx-font-size: 16px;
+
+    -fx-font-weight: bold;
+}
+
+#checkin{
+    -fx-background-color: #008000;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#result_Checkin, #result2_Checkin {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+
+/*_____________________________________________DISPLAYING SCENE____________________________________*/
+
+#rootDisplay {
+    -fx-background-color: #f0f0f0;
+}
+
+#intro_Display {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+#bo_Label{
+    -fx-font-size: 15px;
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+
+}
+
+#pre_Display {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #8d168d;
+
+}
+
+#exit_Display {
+    -fx-background-color: #0073e6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+
+
